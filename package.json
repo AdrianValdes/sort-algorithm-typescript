@@ -1,0 +1,25 @@
+{
+  "name": "sorting-algorithm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianValdes/sort-algorithm-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianValdes/sort-algorithm-typescript/issues"
+  },
+  "homepage": "https://github.com/AdrianValdes/sort-algorithm-typescript#readme",
+  "dependencies": {
+    "concurrently": "^6.0.0"
+  }
+}
